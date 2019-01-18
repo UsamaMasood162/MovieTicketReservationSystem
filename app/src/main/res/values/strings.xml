@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Movie Ticket Reservation</string>
+    <string-array name="seatType">
+        <item>Golden</item>
+        <item>Silver</item>
+        <item>Bronze</item>
+    </string-array>
+</resources>

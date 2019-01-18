@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SeatInformation"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Number of seats : 500"
+        android:textSize="24dp"
+        android:layout_margin="10dp"
+        android:id="@+id/totalSeats"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Enter Number of seats you want to Book"
+        android:inputType="number"
+        android:id="@+id/NumberOfSeats"
+        />
+    <android.support.v7.widget.AppCompatSpinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/selectseat"
+        android:layout_margin="10dp"
+        >
+
+    </android.support.v7.widget.AppCompatSpinner>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Price:
+                          Golden seats first three rows  = 2000
+                          Silver Seats three rows mid     = 1000
+                          Bronze seats Last four rows   = 500"
+            android:textSize="16dp"
+            android:layout_margin="10dp"
+            />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/confirm"
+        android:text="Confirm"
+        />
+
+</LinearLayout>
